@@ -24,7 +24,7 @@ int main()
 		cout << "Нулевое число: 0";
 	}
 	else if (number == 1 || number == 2) {
-		cout << i << "-е число в ряду Фибоначчи: " << fibonacci[0] << endl;
+		cout << number << "-е число в ряду Фибоначчи: " << fibonacci[0] << endl;
 	}
 	else if (number > 93) {
 		cout << "Слишком большое число для этой программы!\n";
@@ -37,7 +37,7 @@ int main()
 			fibonacci[i] = fibonacci[i-1]+ fibonacci[i - 2];
 						
 		}
-		cout << i << "-е число в ряду Фибоначчи: " << fibonacci[number - 1] << endl;
+		cout << number << "-е число в ряду Фибоначчи: " << fibonacci[number - 1] << endl;
 	}
 
     return 0;
