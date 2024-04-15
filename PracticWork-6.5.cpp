@@ -12,7 +12,7 @@ int main()
 	number:
 	cout << "Введите порядковый номер желаемого числа из ряда Фибоначчи: ";
 	cin >> number;
-    unsigned __int64* fibonacci = new unsigned __int64[number];
+        uint64_t* fibonacci = new uint64_t[number];
 	fibonacci[0] = 1;
 	fibonacci[1] = 1;
 	
